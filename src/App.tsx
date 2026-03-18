@@ -408,7 +408,8 @@ export default function App() {
               <div className="text-center mb-8">
                 <p className="text-slate-400 font-medium line-through">De R$369</p>
                 <p className="text-white font-medium">você vai investir somente</p>
-                <div className="text-6xl font-black text-white">R$27,00</div>
+                <div className="text-6xl font-black text-white">R$27</div>
+                <div className="text-sm text-white mt-1">ou 3 x de R$9,64</div>
               </div>
               <CTAButton text="SIM! QUERO ACESSAR AGORA" variant="green" className="w-full" onClick={handlePremiumCheckout} />
               <ScarcityCounter />
