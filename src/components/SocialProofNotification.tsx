@@ -40,10 +40,10 @@ export const SocialProofNotification = ({ isVisibleSection }: { isVisibleSection
     <AnimatePresence>
       {show && notification && (
         <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: -50 }}
-          className="fixed bottom-4 left-4 z-50 bg-[#1e293b] p-4 rounded-lg shadow-2xl border border-slate-700 max-w-sm flex items-center gap-3"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 50 }}
+          className="fixed bottom-4 left-2 right-2 md:left-4 md:right-auto z-50 bg-[#1e293b] p-4 rounded-lg shadow-2xl border border-slate-700 max-w-sm flex items-center gap-3"
         >
           <CheckCircle2 className="w-8 h-8 text-emerald-500 flex-shrink-0" />
           <p className="text-sm text-slate-300">
