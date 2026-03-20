@@ -7,7 +7,6 @@ import { BenefitItem } from './components/BenefitItem';
 import { PainPoint } from './components/PainPoint';
 import { AudienceCard } from './components/AudienceCard';
 import { TestimonialCard } from './components/TestimonialCard';
-import { FloatingCTA } from './components/FloatingCTA';
 import { SocialProofNotification } from './components/SocialProofNotification';
 import { UpsellPopup } from './components/UpsellPopup';
 import { ExitIntentPopup } from './components/ExitIntentPopup';
@@ -75,7 +74,7 @@ export default function App() {
   };
 
   const handlePremiumCheckout = () => {
-    window.location.href = 'https://pay.hotmart.com/D104967142B?checkoutMode=10';
+    window.location.href = 'https://pay.hotmart.com/H105004096K?checkoutMode=10';
     setIsUpsellOpen(false);
   };
 
@@ -112,7 +111,6 @@ export default function App() {
         onGoToOffers={scrollToPricing}
       />
       <SocialProofNotification isVisibleSection={isPricingInView} />
-      <FloatingCTA isVisible={isPricingInView} onScrollToPremium={scrollToPremium} />
       
       {/* 1. Hero Section */}
       <section className="bg-slate-950 text-white py-16 md:py-24 px-4 md:px-6 relative overflow-hidden">
@@ -434,6 +432,10 @@ export default function App() {
       </section>
 
 
+
+      <div className="px-4 pb-10 max-w-md mx-auto">
+        <CTAButton text="Sim! Quero acessar agora" variant="green" className="w-full !font-bold !text-base" onClick={handlePremiumCheckout} />
+      </div>
 
       <footer className="bg-slate-50 py-10 text-center text-slate-500 text-sm font-medium border-t border-slate-200">
         <p>© {new Date().getFullYear()} Teste de Compatibilidade Amorosa. Todos os direitos reservados.</p>
