@@ -145,7 +145,7 @@ export default function App() {
               {...fadeIn} transition={{ delay: 0.3, duration: 0.6 }}
               className="text-lg md:text-xl text-slate-300 mb-8 font-medium leading-relaxed"
             >
-              Em <span className="text-rose-400 font-bold">poucos segundos</span> você pode descobrir se existe harmonia natural entre duas pessoas… ou sinais de conflito que podem gerar sofrimento no futuro.
+              Uma análise que revela <span className="text-rose-400 font-bold">padrões invisíveis</span> de compatibilidade
             </motion.p>
           </div>
           
@@ -175,9 +175,10 @@ export default function App() {
           </motion.h2>
           
           <div className="space-y-8">
-            <BenefitItem text="Descubra com quem você combina analisando a compatibilidade entre duas pessoas usando apenas a data de nascimento." />
-            <BenefitItem text="Identifique sinais de harmonia ou possíveis conflitos de personalidade antes de se envolver mais profundamente." />
-            <BenefitItem text="Entenda melhor a dinâmica entre duas pessoas e perceba tendências do relacionamento que muitas vezes passam despercebidas no início." />
+            <BenefitItem text="Por que vocês se entendem… ou vivem em conflito" />
+            <BenefitItem text="Se existe potencial real ou só atração momentânea" />
+            <BenefitItem text="Se vale a pena investir ou se afastar" />
+            <BenefitItem text="Com quem você realmente combina" />
             
             <div className="bg-rose-50 p-8 rounded-3xl border border-rose-100 mt-8">
               <div className="flex items-center gap-3 mb-4">
@@ -264,16 +265,16 @@ export default function App() {
           </motion.h2>
           <div className="grid md:grid-cols-3 gap-8">
             <TestimonialCard 
-              name="Mariana S." 
-              text="Eu testei com meu ex e com a pessoa que estou conhecendo agora… e fiquei surpresa como a análise fez sentido. Foi muito interessante ver as diferenças entre os dois." 
+              name="Mariana S. 31 anos - Minas Gerais" 
+              text="“Eu estava quase me envolvendo com uma pessoa e resolvi fazer a análise por curiosidade… O resultado mostrou pontos que eu já sentia, mas não conseguia explicar. Depois disso, comecei a observar melhor — e realmente não era uma boa escolha. Sinceramente, isso me evitou uma dor de cabeça enorme.”" 
             />
             <TestimonialCard 
-              name="Carla R." 
-              text="Usei a calculadora com duas pessoas diferentes e a leitura da compatibilidade bateu muito com o que eu sinto no relacionamento." 
+              name="Carla R. 38 anos - São Paulo" 
+              text="“Eu fiz mais por curiosidade mesmo… só que quando apareceu a porcentagem e a explicação, eu acabei lendo tudo. É aquele tipo de coisa que te prende porque parece que está falando diretamente sobre você e a outra pessoa. Não esperava que fosse tão detalhado.”" 
             />
             <TestimonialCard 
-              name="Juliana M." 
-              text="Eu sempre acabava me envolvendo com pessoas que depois percebia que não tinham nada a ver comigo. Comecei a usar a calculadora mais por curiosidade, mas hoje virou quase um filtro. Quando conheço alguém, faço o teste e já consigo ter uma ideia melhor se vale a pena investir ou não." 
+              name="Juliana M. 47 anos - Rio de Janeiro" 
+              text="“Achei que seria só mais uma dessas coisas genéricas, mas quando vi o resultado, fez MUITO sentido com o que eu vivo no meu relacionamento. Algumas coisas que eu achava que eram ‘coisa da minha cabeça’ estavam ali, bem claras. Foi meio chocante, mas ao mesmo tempo esclarecedor.”" 
             />
           </div>
         </div>
@@ -306,9 +307,9 @@ export default function App() {
             3 sinais de que um relacionamento pode ter baixa compatibilidade
           </motion.h2>
           <div className="space-y-6">
-            <PainPoint text="Conflitos constantes mesmo quando a relação ainda está no começo." />
-            <PainPoint text="Sensação de atração forte, mas dificuldade em manter harmonia no dia a dia." />
-            <PainPoint text="Diferenças profundas na forma de pensar, reagir emocionalmente e lidar com a vida." />
+            <PainPoint text="Você sente que precisa “se adaptar demais” para evitar conflitos… mas, no fundo, isso está te cansando mais do que deveria." />
+            <PainPoint text="Tem momentos em que tudo parece fluir… e outros em que vocês simplesmente não conseguem se entender, por mais que tentem." />
+            <PainPoint text="Mesmo quando está tudo bem, existe uma sensação difícil de ignorar… como se algo importante não estivesse encaixando completamente." />
           </div>
         </div>
       </section>
@@ -363,18 +364,18 @@ export default function App() {
       <section ref={pricingSectionRef} className="py-16 md:py-24 px-4 md:px-6 bg-slate-50">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8 items-start">
-            {/* Essencial */}
+            {/* Básico */}
             <div className="bg-white p-8 md:p-10 rounded-3xl border-2 border-slate-200 shadow-sm">
-              <h3 className="text-2xl font-black text-slate-900 mb-4">Análise de Compatibilidade Amorosa – Essencial</h3>
+              <h3 className="text-2xl font-black text-slate-900 mb-4">Análise de Compatibilidade Amorosa – Básico</h3>
               <p className="text-red-500 line-through mb-8 font-black text-lg">R$97</p>
               <ul className="space-y-4 mb-10">
                 <li className="flex items-center gap-3 font-medium text-slate-700"><CheckCircle2 className="w-5 h-5 text-emerald-500" /> Análise entre duas pessoas</li>
                 <li className="flex items-center gap-3 font-medium text-slate-700"><CheckCircle2 className="w-5 h-5 text-emerald-500" /> Leitura básica da dinâmica</li>
                 <li className="flex items-center gap-3 font-medium text-slate-700"><CheckCircle2 className="w-5 h-5 text-emerald-500" /> Identificação de conflitos</li>
-                <li className="flex items-center gap-3 font-medium text-slate-700"><CheckCircle2 className="w-5 h-5 text-emerald-500" /> Uso ilimitado</li>
+                <li className="flex items-center gap-3 font-medium text-slate-700"><CheckCircle2 className="w-5 h-5 text-emerald-500" /> Uso limitado</li>
               </ul>
               <div className="text-4xl font-black text-slate-900 mb-8">R$10</div>
-              <CTAButton text="SIM! QUERO ACESSAR AGORA" variant="green" className="w-full" onClick={() => setIsUpsellOpen(true)} />
+              <CTAButton text="SIM! QUERO ACESSAR AGORA" variant="green" className="w-full !font-bold !text-base" onClick={() => setIsUpsellOpen(true)} />
             </div>
 
             {/* Premium */}
@@ -385,7 +386,7 @@ export default function App() {
               <h3 className="text-2xl font-black text-white mb-4">Scanner de Compatibilidade Amorosa – Premium</h3>
               <p className="text-slate-300 mb-8 font-medium">Aplicativo completo com análise numerológica avançada. A versão premium faz uma análise muito mais profunda da compatibilidade e revela também com quem você realmente combina.</p>
               <ul className="space-y-4 mb-10">
-                <li className="flex items-center gap-3 font-medium text-slate-100"><CheckCircle2 className="w-5 h-5 text-green-400" /> Tudo do plano essencial + <span className="text-red-500 line-through font-normal">R$97</span></li>
+                <li className="flex items-center gap-3 font-medium text-slate-100"><CheckCircle2 className="w-5 h-5 text-green-400" /> Tudo do plano básico + análise aprofundada <span className="text-red-500 line-through font-normal">R$97</span></li>
                 <li className="flex items-center gap-3 font-medium text-slate-100"><CheckCircle2 className="w-5 h-5 text-green-400" /> Lista de números ideais para namoro <span className="text-red-500 line-through font-normal">R$27</span></li>
                 <li className="flex items-center gap-3 font-medium text-slate-100"><CheckCircle2 className="w-5 h-5 text-green-400" /> Lista de números ideais para casamento <span className="text-red-500 line-through font-normal">R$27</span></li>
                 <li className="flex items-center gap-3 font-medium text-slate-100"><CheckCircle2 className="w-5 h-5 text-green-400" /> Alerta de números com conflitos <span className="text-red-500 line-through font-normal">R$37</span></li>
@@ -411,7 +412,7 @@ export default function App() {
                 <div className="text-6xl font-black text-white">R$27</div>
                 <div className="text-sm text-white mt-1">ou 3 x de R$9,64</div>
               </div>
-              <CTAButton text="SIM! QUERO ACESSAR AGORA" variant="green" className="w-full" onClick={handlePremiumCheckout} />
+              <CTAButton text="QUERO VER MINHA COMPATIBILIDADE COMPLETA AGORA" variant="green" className="w-full !font-bold !text-base" onClick={handlePremiumCheckout} />
               <ScarcityCounter />
             </div>
           </div>
@@ -426,7 +427,6 @@ export default function App() {
               </p>
             </div>
             <div className="pt-6">
-              <CTAButton text="QUERO ACESSO IMEDIATO" variant="green" className="w-full max-w-md" onClick={() => window.location.href = 'https://pay.hotmart.com/D104967142B?checkoutMode=10'} />
             </div>
           </div>
         </div>

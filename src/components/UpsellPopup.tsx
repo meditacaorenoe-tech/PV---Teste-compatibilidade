@@ -41,7 +41,7 @@ export const UpsellPopup = ({
             <h2 className="text-2xl font-black mb-4">É sério?</h2>
             
             <p className="text-lg font-medium mb-2">
-              Por apenas <span className="bg-emerald-600 px-2 py-1 rounded">R$17 a mais</span>, você pode levar o plano PREMIUM completo.
+              Por apenas R$17 a mais você pode ver sua análise completa - Uso ilimitado.
             </p>
             
             <p className="text-sm text-slate-400 mb-6">
@@ -59,7 +59,7 @@ export const UpsellPopup = ({
               onClick={onRefuse}
               className="text-slate-400 underline text-sm hover:text-white"
             >
-              Quero apenas o plano Essencial
+              Quero apenas o plano Básico
             </button>
           </motion.div>
         </motion.div>
