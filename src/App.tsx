@@ -70,7 +70,7 @@ export default function App() {
   };
 
   const handleBasicCheckout = () => {
-    window.location.href = 'https://pay.hotmart.com/D104952377P?bid=1773776045738';
+    window.location.href = 'https://pay.hotmart.com/F105001165Y?checkoutMode=10';
     setIsUpsellOpen(false);
   };
 
@@ -393,6 +393,7 @@ export default function App() {
                 <li className="flex items-center gap-3 font-medium text-slate-100"><CheckCircle2 className="w-5 h-5 text-green-400" /> Porcentagem de compatibilidade (0-99%)</li>
                 <li className="flex items-center gap-3 font-medium text-slate-100"><CheckCircle2 className="w-5 h-5 text-green-400" /> Análise dos 3 pilares do relacionamento <span className="text-red-500 line-through font-normal">R$47</span></li>
                 <li className="flex items-center gap-3 font-medium text-slate-100"><CheckCircle2 className="w-5 h-5 text-green-400" /> Mini análise "Tira-Teima" <span className="text-red-500 line-through font-normal">R$37</span></li>
+                <li className="flex items-center gap-3 font-medium text-slate-100"><CheckCircle2 className="w-5 h-5 text-green-400" /> Sem limite de uso</li>
               </ul>
               
               {/* Bônus */}
