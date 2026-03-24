@@ -75,7 +75,7 @@ export default function App() {
   };
 
   const handlePremiumCheckout = () => {
-    window.location.href = 'https://pay.hotmart.com/D104967142B?checkoutMode=10';
+    window.location.href = 'https://pay.hotmart.com/H105004096K?checkoutMode=10';
     setIsUpsellOpen(false);
   };
 
