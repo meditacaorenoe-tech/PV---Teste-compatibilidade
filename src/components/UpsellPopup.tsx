@@ -41,7 +41,7 @@ export const UpsellPopup = ({
             <h2 className="text-2xl font-black mb-4">É sério?</h2>
             
             <p className="text-lg font-medium mb-2">
-              Por apenas R$17 a mais você pode ver sua análise completa - Uso ilimitado.
+              Por apenas R$7 a mais você pode ver sua análise completa - Uso ilimitado.
             </p>
             
             <p className="text-sm text-slate-400 mb-6">
